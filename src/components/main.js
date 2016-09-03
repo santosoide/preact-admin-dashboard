@@ -21,9 +21,7 @@ export default class App extends Component {
 					<Tables path="/table"/>
 				</Router>
 
-				<Button fab colored class="floating-action-button">
-					<Icon>create</Icon>
-				</Button>
+				<a href="https://github.com/cyberid41/preact-admin-dashboard" target="_blank" id="view-source" class="floating-action-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white">View Source</a>
 			</Layout.Content>
 		);
 	}
