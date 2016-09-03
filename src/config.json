@@ -1,0 +1,47 @@
+{
+  "title": "Preact Admin Dashboard with Material Design Lite",
+  "name": "Preact Admin Dashboard",
+  "user": "Mukidi",
+  "nav": [
+	{
+	  "name": "Dashboard",
+	  "content": "dashboard",
+	  "routes": [
+		{
+		  "path": "/dashboard",
+		  "name": "Dashboard"
+		}
+	  ]
+	},
+	{
+	  "name": "Components",
+	  "content": "components",
+	  "routes": [
+		{
+		  "path": "/component",
+		  "name": "Component"
+		}
+	  ]
+	},
+	{
+	  "name": "Form",
+	  "content": "form",
+	  "routes": [
+		{
+		  "path": "/form",
+		  "name": "Form"
+		}
+	  ]
+	},
+	{
+	  "name": "Table",
+	  "content": "table",
+	  "routes": [
+		{
+		  "path": "/table",
+		  "name": "Table"
+		}
+	  ]
+	}
+  ]
+}

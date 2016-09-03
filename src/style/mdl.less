@@ -1,0 +1,61 @@
+@import (css) '//storage.googleapis.com/code.getmdl.io/1.0.6/material.blue-cyan.min.css';
+@import (css) '//fonts.googleapis.com/icon?family=Material+Icons';
+@import (css) '//fonts.googleapis.com/css?family=Roboto:400,500,700';
+
+html, body {
+  font: 14px/1.21 Roboto, 'Helvetica Neue', arial, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+textarea {
+  font: 14px/1.21 Roboto, 'Helvetica Neue', arial, sans-serif;
+}
+
+header {
+  &.seamless {
+	box-shadow: 0 0 0 #000;
+  }
+}
+
+#content {
+  position: relative;
+}
+
+.floating-action-button {
+  position: fixed;
+  right: 14px;
+  bottom: 14px;
+  z-index: 500;
+  will-change: bottom;
+  transition: bottom 250ms ease 50ms;
+
+  &.is-hidden {
+	bottom: -100px;
+  }
+}
+
+.mdl-layout__header[manual],
+.mdl-layout__header--manual {
+  .mdl-layout__header-row {
+	& > .mdl-button:first-child,
+	& > .material-icons:first-child {
+	  left: -10px;
+	  margin-left: -50px;
+	}
+  }
+}
+
+.mdl-button {
+  &[disabled] {
+	opacity: 0.5;
+	pointer-events: none;
+  }
+}
+
+.mdl-card__actions.centered {
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
