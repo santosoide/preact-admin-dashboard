@@ -2,6 +2,7 @@
 
 
 > Preact Admin Dashboard, This project was started using [preact-boilerplate](https://github.com/developit/preact-boilerplate) & [preact-mdl](https://github.com/developit/preact-mdl/).
+>
 > and also inspired by [Nectarine.rocks](https://github.com/developit/nectarine.rocks/)
 > **[View Demo](http://preact-admin-mdl.surge.sh/)** 
 
@@ -29,7 +30,7 @@ git clone https://github.com/cyberid41/preact-admin-dashboard.git
 rm -rf .git && git init && npm init
 ```
 
-> :information_source: This re-initializes the repo and sets up your NPM project.
+> This re-initializes the repo and sets up your NPM project.
 
 
 **3. Install the dependencies:**
@@ -68,11 +69,9 @@ You can now deploy the contents of the `build` directory to production!
 > `npm run deploy`
 
 
----
 
 > **NB:** This project will be updated
 
----
 
 ## License
 
