@@ -4,6 +4,7 @@
 > Preact Admin Dashboard, This project was started using [preact-boilerplate](https://github.com/developit/preact-boilerplate) & [preact-mdl](https://github.com/developit/preact-mdl/).
 >
 > and also inspired by [Nectarine.rocks](https://github.com/developit/nectarine.rocks/)
+>
 > **[View Demo](http://preact-admin-mdl.surge.sh/)** 
 
 ---
@@ -68,7 +69,7 @@ You can now deploy the contents of the `build` directory to production!
 >
 > `npm run deploy`
 
-
+---
 
 > **NB:** This project will be updated
 
