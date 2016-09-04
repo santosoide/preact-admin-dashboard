@@ -16,10 +16,10 @@ export default class App extends Component {
 		return (
 			<Layout.Content id="content">
 				<Router>
-					<Dashboard path="/"/>
-					<Components path="/component"/>
-					<Form path="/form"/>
-					<Tables path="/table"/>
+					<Dashboard path="/" />
+					<Components path="/component" />
+					<Form path="/form" />
+					<Tables path="/table" />
 					<Login path="/login" />
 				</Router>
 

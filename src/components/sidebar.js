@@ -36,12 +36,7 @@ export default class Sidebar extends Component {
 		this.base.classList.add('is-visible');
 		this.visible = true;
 	}
-
-	@bind
-	me() {
-		return false;
-	}
-
+	
 	render() {
 		let { Link } = Navigation;
 

@@ -1,7 +1,9 @@
 import { h, Component } from 'preact';
 import { Card, TextField, Button, CheckBox, Layout } from 'preact-mdl';
+import { bind } from 'decko';
+import { emit } from '../pubsub';
 
-export default class Login extends Component {
+export default class Login extends Component { 
 
 	render() {
 		return (
@@ -23,8 +25,11 @@ export default class Login extends Component {
 						    />
 
                             <CheckBox > Keep me signed in</CheckBox>
+
+                            <Layout.Spacer />    
+
                             <div class="mdl-actions">    
-                                <Button colored raised >Sign In</Button>
+                                <Button colored raised>Sign In</Button>
                             </div>
                         </form>
                     </div>
