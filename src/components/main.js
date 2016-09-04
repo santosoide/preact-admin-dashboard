@@ -7,6 +7,7 @@ import Components from './components';
 import Form from './forms';
 import Tables from './table';
 import Dashboard from './dashboard';
+import Login from './login';
 import config from '../config.json';
 
 export default class App extends Component {
@@ -19,6 +20,7 @@ export default class App extends Component {
 					<Components path="/component"/>
 					<Form path="/form"/>
 					<Tables path="/table"/>
+					<Login path="/login" />
 				</Router>
 
 				<a href="https://github.com/cyberid41/preact-admin-dashboard" target="_blank" id="view-source" class="floating-action-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white">View Source</a>

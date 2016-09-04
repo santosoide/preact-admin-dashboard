@@ -1,6 +1,5 @@
 import { h, Component } from 'preact';
 import { Card, TextField, Button, Icon, CheckBox, Layout, Radio } from 'preact-mdl';
-import './style';
 
 export default class Forms extends Component {
 
@@ -14,7 +13,7 @@ export default class Forms extends Component {
 						</div>
 						<Card.Text>
 
-							<form>
+							<form action="javascript:;">
 								<TextField
 									floating-label
 									label="Title"
@@ -22,9 +21,7 @@ export default class Forms extends Component {
 									value="Frontend Engineer"
 									class="mdl-cell--12-col"
 								/>
-							</form>
-
-							<form>
+					
 								<TextField
 									floating-label
 									label="Email"
@@ -32,9 +29,7 @@ export default class Forms extends Component {
 									value="me@mukidi.co"
 									class="mdl-cell--12-col"
 								/>
-							</form>
-
-							<form>
+						
 								<TextField
 									floating-label
 									label="Company (disabled)"
@@ -43,28 +38,21 @@ export default class Forms extends Component {
 									class="mdl-cell--12-col"
 									disabled
 								/>
-							</form>
-
-
-							<form>
+						
 								<TextField
 									floating-label
 									label="First Name"
 									type="text"
 									class="mdl-cell--12-col"
 								/>
-							</form>
-
-							<form>
+							
 								<TextField
 									floating-label
 									label="Last Name"
 									type="text"
 									class="mdl-cell--12-col"
 								/>
-							</form>
-
-							<form>
+							
 								<TextField
 									floating-label
 									label="Bio"
@@ -74,31 +62,23 @@ He wants to be a Frontend engineer!"
 									class="mdl-cell--12-col"
 									multiline
 								/>
-							</form>
-
-							<form>
+						
 								<CheckBox>Checkbox</CheckBox>
 
 								<CheckBox checked="true">Checkbox : checked</CheckBox>
 
 								<CheckBox disabled>Checkbox : disabled</CheckBox>
-							</form>
-
-							<Layout.Spacer />
-
-							<form>
+							
 								<TextField
 									type="file"
 									upload
 								/>
-							</form>
-
-							<div class="mdl-card__actions">
-								<form action="javascript:;">
+								
+								<div class="mdl-actions">								
 									<Button colored raised>Submit</Button>
 									<Button colored>Clear</Button>
-								</form>
-							</div>
+								</div>
+							</form>
 						</Card.Text>
 					</Card>
 				</div>
