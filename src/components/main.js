@@ -3,6 +3,8 @@ import { Layout, Button, Icon } from 'preact-mdl';
 import Router, { route } from 'preact-router';
 import { bind, debounce } from 'decko';
 import { emit, on, off } from '../pubsub';
+import Badges from './badges';
+import Buttons from './button';
 import Cards from './cards';
 import Form from './forms';
 import Tables from './table';
@@ -17,6 +19,8 @@ export default class App extends Component {
 			<Layout.Content id="content">
 				<Router>
 					<Dashboard path="/" />
+					<Badges path="/badges" />
+					<Buttons path="/button" />
 					<Cards path="/cards" />
 					<Form path="/form" />
 					<Tables path="/table" />

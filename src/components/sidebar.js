@@ -68,6 +68,8 @@ export default class Sidebar extends Component {
 
 				<Navigation>
 					<Link href="/" route={this.go}>Dashboard</Link>
+					<Link href="/badges" route={this.go}>Badges</Link>
+					<Link href="/button" route={this.go}>Button</Link>
 					<Link href="/cards" route={this.go}>Cards</Link>
 					<Link href="/form" route={this.go}>Form</Link>
 					<Link href="/table" route={this.go}>Table</Link>

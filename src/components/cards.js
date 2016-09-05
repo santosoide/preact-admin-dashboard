@@ -5,7 +5,7 @@ export default class Cards extends Component {
 
 	render() {
 		return (
-			<div>
+			<div class="mdl-grid">
 				<Card class="demo-card-wide mdl-card mdl-shadow--2dp centered">
 					<Card.Title class="mdl-card__title mdl-card--expand">
 						<h2 class="mdl-card__title-text">CARDS</h2>
