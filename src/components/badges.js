@@ -1,7 +1,7 @@
 import { h, Component } from 'preact';
 import { Card, Icon, Layout } from 'preact-mdl';
 
-export default class Cards extends Component {
+export default class Badges extends Component {
 
 	render() {
 		return (
