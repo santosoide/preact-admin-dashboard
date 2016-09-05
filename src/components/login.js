@@ -10,7 +10,7 @@ export default class Login extends Component {
 				<div class="mdl-card mdl-shadow--2dp centered">
                     <div class="mdl-card__supporting-text">
                         <form action="javascript:;">
-                            <p class="">Sign in with your Account</p>
+                            <p>Sign in with your Account</p>
                     
                             <TextField
                                 floating-label
