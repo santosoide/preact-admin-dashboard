@@ -71,3 +71,41 @@ header {
 div.mdl-actions {
   padding-top:10px;
 }
+
+.demo-card-wide.mdl-card {
+  width: 512px;
+    .mdl-card__title {
+        color: #fff;
+        height: 176px;
+        background: url("../assets/welcome_card.jpg") center / cover;
+    }
+    .mdl-card__menu {
+        color: #fff;
+    }
+}
+
+.demo-card-square.mdl-card {
+  width: 320px;
+    .mdl-card__title {
+      height: 220px;
+        color: #fff;
+        background:
+        url('../assets/dog.png') bottom right 15% no-repeat #46B6AC;
+    }
+}
+
+.demo-card-image.mdl-card {
+  width: 256px;
+  height: 256px;
+  background: url('../assets/image_card.jpg') center / cover;
+  .mdl-card__actions {
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+      .demo-card-image__filename {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+      }
+  }
+}
