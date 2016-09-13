@@ -7,6 +7,7 @@ import Badges from './badges';
 import Buttons from './button';
 import Cards from './cards';
 import Form from './forms';
+import Layouts from './layout';
 import Tables from './table';
 import Dashboard from './dashboard';
 import Login from './login';
@@ -23,6 +24,7 @@ export default class App extends Component {
 					<Buttons path="/button" />
 					<Cards path="/cards" />
 					<Form path="/form" />
+					<Layouts path="/layout" />
 					<Tables path="/table" />
 					<Login path="/login" />
 				</Router>
