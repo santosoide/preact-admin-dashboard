@@ -72,9 +72,8 @@ export default class Sidebar extends Component {
 					<Link href="/button" route={this.go}>Button</Link>
 					<Link href="/cards" route={this.go}>Cards</Link>
 					<Link href="/form" route={this.go}>Form</Link>
-					<Link href="/layout" route={this.go}>Layout</Link>
-					<Link href="/login" route={this.go}>Login</Link>
 					<Link href="/table" route={this.go}>Table</Link>
+					<Link href="/login" route={this.go}>Login</Link>
 				</Navigation>
 			</Layout.Drawer>
 		);
